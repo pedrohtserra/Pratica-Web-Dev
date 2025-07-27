@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Primeiro Quiz">
+        <title>Quiz do Pedro</title>
+    </head>
+    <body>
+        <!--Cabeçalho-->
+        <header>
+            <h1>Quiz do Pedro</h1>
+            <p>Acumule pontos acertando cada questão abaixo</p>
+        </header>
+        <!--Corpo-->
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Descrição:</h2>
+                <p>Teste seus conhecimentos sobre <strong>programação</strong>!</p>
+                <h4>Nível de dificuldade: Iniciante</h4>
+            </section>
+            <!--Perguntas-->
+            <section>
+                <!--Primeira Pergunta: Escolha em Bolinha-->
+                <h2>Pergunta 1: Qual desses nomes é dado para um sistema organizado que tem a função de armazenar, gerenciar e recuperar informações de uma forma estruturada?</h2>
+                <form>
+                    <input type="radio" value="Programação Orientada a Objetos" id="p1a" name="pergunta1">
+                    <label for="p1a">Programação Orientada a Objetos</label><br>
+                    <input type="radio" value="Sistema de Usuário e Redes" id="p1b" name="pergunta1">
+                    <label for="p1b">Sistema de Usuário e Redes</label><br>
+                    <input type="radio" value="Banco de Dados" id="p1c" name="pergunta1">
+                    <label for="p1c">Banco de Dados</label><br>
+                    <input type="radio" value="Programação Estruturada" id="p1d" name="pergunta1">
+                    <label for="p1d">Programação Estruturada</label><br>
+                </form>
+            </section>
+            <section>
+                <!--Segunda Pegunta: Texto-->
+                <h2>Pergunta 2: Qual é nome dado para uma unidade de medida, composta por 8 bits?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <section>
+                <!--Terceira Pergunta: Senha-->
+                <h2>Pergunta 3: Escreva um exemplo de senha forte:</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite a senha...">
+                </form>
+            </section>
+            <section>
+                <!--Quarta Pergunta: Data-->
+                <h2>Pergunta 4: Em que data foi fundada a Microsoft?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <section>
+                <!--Quinta Pergunta: Seleção Múltipla-->
+                <h2>Pergunta 5: Quais dessas alternativas é considerada uma linguagem de programação?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="C++">
+                    <label for="p5a">C++</label><br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Diamond">
+                    <label for="p5b">Diamond</label><br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Python">
+                    <label for="p5c">Python</label><br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="Ruby">
+                    <label for="p5d">Ruby</label><br>
+                </form>
+            </section>
+            <section>
+                <!--Sexta Pergunta: Upload de Arquivo-->
+                <h2>Pergunta 6: Faça um upload de arquivo contendo código HTML</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <section>
+                <!--Sétima Pergunta: Menu Suspenso-->
+                <h2>Pergunta 7: Qual linguagem é considerada a mais rápida e eficiente, sendo a mais recomendada para programas grandes e estruturados, jogos e até mesmo programação competitiva?</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="HTML">HTML</option>
+                        <option value="C++">C++</option>
+                        <option value="Python">Python</option>
+                        <option value="Assembly">Assembly</option>
+                    </select>
+                </form>
+            </section>
+            <section>
+                <!--Oitava Pergunta: Imagem-->
+                <h2>Pergunta 8: Qual linguagem é conhecida por essa logo abaixo?</h2>
+                <figure>
+                    <img src="pergunta8.jpeg" height="200" width="300">
+                    <figcaption>Dica: Linguagem de programação utilizada no Minecraft</figcaption>
+                </figure>
+                <form>
+                    <input type="radio" id="p8a" name="pergunta8" value="Java">
+                    <label for="p8a">Java</label>
+                    <input type="radio" id="p8b" name="pergunta8" value="PHP">
+                    <label for="p8b">PHP</label>
+                    <input type="radio" id="p8c" name="pergunta8" value="Kotlin">
+                    <label for="p8c">Kotlin</label>
+                    <input type="radio" id="p8d" name="pergunta8" value="JavaScript">
+                    <label for="p8d">JavaScript</label>
+                </form>
+            </section>
+            <section>
+                <!--Tabela de Pontuação-->
+                <h2>Tabela de Pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </thead>
+                    <tr>
+                        <td>0-2</td>
+                        <td>A pontuação foi baixa, mas seu potencial é maior que isso, tente novamente e melhore cada vez mais!</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Está melhorando, keep pushing!</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>Ótimo! Mas não é o seu máximo, está quase lá!</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Você está a um passo de alcançar o seu potencial, você consegue!</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Você conseguiu! Boa sorte na próxima lista, essa era fácil, melhore...</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <!--Lista de Respostas-->
+                <h2>Gabarito:</h2>
+                <details>
+                    <summary>Clique aqui para visualizar o gabarito</summary>
+                    <ol>
+                        <li>Banco de Dados</li>
+                        <li>Byte</li>
+                        <li>A@m!3o0lzqO#5@1</li>
+                        <li>04/04/1975</li>
+                        <li>C++; Python; Ruby</li>
+                        <li>Upload de Arquivo .html</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ol>
+                </details>
+            </section>
+            <section>
+                <!--Feedback-->
+                <h2>Nos dê seu feedback:</h2>
+                <form>
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome"><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email"><br>
+                        <label for="comentario">Comentário:</label><br>
+                        <textarea id="comentario" name="comentario" rows="4" cols="25" placeholder="Digite seu comentário aqui"></textarea><br>
+                        <button onclick="alert('Feedback Enviado!')">Envie o Feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <!--Rodapé-->
+        <footer>
+            <p>Para mais quizzes, <a href="https://google.com" target="_blank">clique aqui</a>.</p>
+            <p>&copy 2025 Pedro Estudos</p>
+        </footer>
+    </body>
+</html>
