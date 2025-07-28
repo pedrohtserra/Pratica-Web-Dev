@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F0EA;
+    color: #70831b;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+header {
+    color:#F4F0EA;
+    padding: 2rem;
+    background-color: #5a4038;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2 {
+    background-color: #dbd1c1;
+    padding: 0.5rem;
+    border: 2px solid #5d6145;
+    border-radius: 10px;
+    color: #57372d;
+    font-size: 1.3rem;
+}
+
+input[type="radio"], [type="checkbox"] {
+    accent-color: #CCD595;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 10px;
+}
+
+input[type="password"] {
+    padding: 0.3rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 10px;
+}
+
+input[type="date"] {
+    padding: 0.3rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder {
+    color:#545c2f
+}
+
+select {
+    padding: 0.3rem;
+    cursor: pointer;
+    color: #70831b;
+    border: 2px solid #CCD595;
+    border-radius: 10px;
+    outline: none;
+}
+
+img {
+    border: 2px solid #CCD595;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    color:#57372d
+}
+
+table {
+    width: 100%;
+    padding: 0.3rem;
+    border-collapse: collapse;
+    border: 3px solid #5a4038
+}
+
+th {
+    padding: 0.2rem;
+    background-color: #CCD595;
+    color:#57372d;
+}
+
+td {
+    padding: 0.3rem;
+    text-align: center;
+    background-color: white;
+    color:#5a4038;
+}
+
+details {
+    background-color: #CCD595;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+
+summary {
+    margin: 0.2rem;
+    color:#57372d
+}
+
+ol {
+    margin-left: 2.4rem;
+}
+
+ol li {
+    color:#5a4038;
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #5d6145;
+    border-radius: 10px;
+    padding: 0.6rem;
+    color:#5a4038;
+}
+
+legend {
+    border: 2px solid #5d6145;
+    border-radius: 10px;
+    color:#5a4038;
+    padding: 0 0.5rem;
+}
+
+input[type="email"] {
+    padding: 0.3rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.3rem;
+    border: 2px solid #CCD595;
+    outline: none;
+    border-radius: 10px;
+}
+
+button {
+    background-color:#CCD595;
+    border: 2px solid #57372d;
+    border-radius: 10px;
+    padding: 0.2rem;
+    color:#5a4038;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #5a4038;
+    color:#F4F0EA;
+    padding: 0.5rem 2rem;
+}
