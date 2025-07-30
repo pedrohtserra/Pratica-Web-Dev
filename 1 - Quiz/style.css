@@ -83,17 +83,6 @@ select {
     outline: none;
 }
 
-img {
-    border: 2px solid #CCD595;
-    border-radius: 10px;
-    height: 200px;
-    width: 300px;
-}
-
-figcaption {
-    color:#57372d
-}
-
 table {
     width: 100%;
     padding: 0.3rem;
