@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 4rem;
+    background-color: rgb(61, 61, 175);
+    color: aliceblue;
+}
+
+main {
+    padding: 3rem;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer {
+    padding: 1rem;
+}
+
+fieldset {
+    background-color: rgb(204, 213, 233);
+    border: 2px solid #366483;
+    border-radius: 10px;
+    padding: 0.6rem;
+    display: flex;
+}
+
+button {
+    margin-left: 15%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(225, 226, 228);
+}
+
+body {
+    background-color: rgb(128, 128, 223);
+}
+
+input[type="text"] {
+    outline: none;
+}
