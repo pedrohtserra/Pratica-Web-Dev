@@ -1,0 +1,33 @@
+body {
+    background-color: #475064;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    display: block;
+    background-color: #1a2077;
+    color: #ffffff;
+    font-size: 6rem;
+    margin: 0 auto;
+    padding: 40px 80px;
+    cursor: pointer;
+    border-radius: 3rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #252692;
+}
+
+header {
+    padding: 8%;
+}
+
+.mensagem {
+    color:#ffffff;
+    font-size: 50px;
+}
