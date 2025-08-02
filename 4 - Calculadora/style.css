@@ -60,3 +60,19 @@ button {
     margin: 0.1rem;
     border-radius: 0.4rem;
 }
+
+#btn0 {
+    margin-left: 68px;
+}
+
+#btnMult {
+    margin-left: 68px;
+}
+
+#btnEquals {
+    margin-left: 68px;
+}
+
+#btnClear {
+    margin-left: 68px;
+}
